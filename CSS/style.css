@@ -1,0 +1,105 @@
+/*body : It sets the background color, padding and margin of the page.*/
+
+body{
+  height: 100%;
+  background-color: #ebebeb;
+  padding-top: 0;
+  margin: 0;
+}
+/*This is used to target image with id profile-pic*/
+#profile-pic{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*It affects the navigation bar*/
+.navigation-bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*It affects the nav bar elements (li) */
+.navigation-bar li{
+  float: left;
+}
+
+/*It affects the links in nav bar*/
+.navigation-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*It affects the about me section*/
+.about-me{
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 46px;
+  color: #232b25;
+}
+/*This targets the h1 in about me section*/
+.about-me h1{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family:Times;
+  font-size: 40px;
+}
+/*This targets h2 in about me section*/
+.about-me h2{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Courier;
+  font-weight: lighter;
+}
+/*This targets the ul element in every section*/
+.section-title{
+  margin-bottom: 5px;
+  letter-spacing: 1.3px;
+  text-decoration: underline;
+}
+/* This affects h4 in skills which uses this id*/
+#skills-heading{
+  font-weight:600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+/*Targets education section*/
+.education-section{
+  padding: 15px;
+  color: #ebebeb;
+  background-color: #4d4d4d;
+}
+/*Trgets skills section*/
+.skills-section{
+  padding: 15px;
+}
+/*Targets every list that uses section-list class*/
+.section-list{
+  margin-top: 0;
+}
+/*Targets experience section*/
+.experience{
+  padding: 15px;
+  background-color: #4d4d4d;
+  color: #ebebeb;
+}
+.project-section{
+  padding:15px;
+}
+/*Targets the footer section which contain info about contact*/
+footer{
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+footer a{
+  color: white;
+}

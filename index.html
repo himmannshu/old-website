@@ -1,19 +1,133 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>HIMANSHU | Creative Bot</title>
-    <link rel="stylesheet" href="CSS/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="icon" href="img/favicon.ico">
-</head>
-<body>
-  <div class="container-fluid">
-    <h1> HIMANSHU</h1>
-  </div>
+    <head>
+    	<meta charset="utf-8">
+    	<title>HIMANSHU | Creative Bot</title>
+      <link rel="stylesheet" href="CSS/style.css" />
+      <link rel="icon" href="img/favicon.ico">
+    </head>
+    <body>
+    	<header class="page-header">
+    			<!--  Himanshu's Resume -->
+    			<ul class="navigation-bar">
+    				<li><a href="#info">Contact Information</a><li>
+    				<li><a href="#education">Education</a><li>
+    				<li><a href="#skills">Skills</a><li>
+    				<li><a href="#work-exp">Work Experience</a><li>
+    				<li><a href="#projects">Projects</a><li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+    			</ul>
+    	</header>
+      <section class="about-me" id="about">
+        <!-- <h2 id="section-title">Contact Information</h2> -->
+        <h1 id="name">Himanshu</h1>
+        <h2>Student at Virginia Tech</h2>
+        <img src="img/IMG_1275.jpeg" id="profile-pic">
+        <h2 class="section-title">About Me</h2>
+        <p>
+          My name is Himanshu and I am a senior at Virginia Tech majoring in Computer Science.
+
+        </p>
+      </section>
+    	<section class="education-section" id="education">
+    		<h2 class="section-title" id="title">Education</h2>
+    		<ul class="section-list" id = "edu-list">
+    			<li>B.S. in Computer Science, GPA: 3.43/4.00</li>
+    			<li>Minor: Mathematics</li>
+    			<li>Virginia Polytechnic Institute & State University, Blacksburg, VA 24060</li>
+    			<li>Expected Graduation: May 2021</li>
+    		</ul>
+    	</section>
+    	<section class="skills-section" id="skills">
+    		<h2 class="section-title" id="skills-title">Skills</h2>
+    		<h4 id="skills-heading">Programming Languages/Skills</h4>
+    		<ul class="section-list" id="skills-list">
+    			<li>Java</li>
+    			<li>Python</li>
+    			<li>C</li>
+    			<li>Kotlin</li>
+    			<li>HTML</li>
+    			<li>CSS</li>
+    			<li>MySQl</li>
+    			<li>C++</li>
+    		</ul>
+    	</section>
+    	<section class="experience" id="work-exp">
+    		<h2 id="exp-title" class="section-title">Work Experience</h2>
+    		<ul id="exp-list" class="section-list">
+    			<li id="work 1">HCL Technologies, Student Intern
+    				<ul>
+    					<li>Worked with the front-end team for a month.</li>
+    					<li>Developed webpages using HTML5, CSS, Bootstrap, and JavaScript.</li>
+    					<li>Learned about agile software development, work ethics, and different technologies used in Web Development.</li>
+    				</ul>
+    			</li>
+    			<br/>
+    			<li id="work 2">Virginia Tech Student Staff, Dining Services
+    				<ul>
+    					<li>Worked as a food server at one of the dining halls at Virginia Tech</li>
+    					<li>Learned time management by managing studies and part-time job together</li>
+    				</ul>
+    			</li>
+    		</ul>
+    	</section>
+    	<section id="projects" class="project-section">
+    		<h2 id="project-title" class="section-title">Projects</h2>
+    		<ul id="projects-list" class="section-list">
+    			<li id="project 1">Tic Tac Toe AI
+    				<ul>
+    					<li>Developed a tic tac toe AI agent using minimax algorithm.</li>
+    					<li>AI agent would never lose a match as it traverses through the entire game tree and chooses the next optimal move.</li>
+    				</ul>
+    			</li>
+    			<br/>
+    			<li id="project 2">Better-Do Android Application
+    				<ul>
+    					<li>Developed a to-do app in a team of 3 that allowed users to group tasks and set alarms.</li>
+    					<li>Worked on the UI and database.</li>
+    				</ul>
+    			</li>
+    			<br/>
+    			<li id="project 3">Data Visualization
+    				<ul>
+    					<li>Parse music survey data and visualize it using different categories like major, genre, etc.</li>
+    					<li>Developed this project in a team of 3 using Java.</li>
+    					<li>Responsible for developing the back end</li>
+    				</ul>
+
+    			</li>
+    			<br/>
+    			<li id="project 4">Go Green Voting System
+    				<ul>
+    					<li>Developed a voting system in in C++ in High School</li>
+    					<li>Project gave my school authorities an idea to develop an electronic Voting System on a larger magnitude for in-school elections.</li>
+    				</ul>
+    			</li>
+    		</ul>
+    	</section>
+      <footer class="contact-info" id="info">
+        <div class="info">
+          <p id="name-email">
+            <span>Himanshu, </span>
+            <span><a href="mailto:himanshu@vt.edu">himanshu@vt.edu</a></span>
+          </p>
+          <address id="mailing address" class="address">
+            <p id="street address">
+              <span id="street-addr">1900 Foxhunt Lane</span>
+              <span id="city">Blacksburg,</span>
+              <span id="state">Virginia</span>
+              <span id="zip code">24060</span>
+              <span id = "country">United States of America</span>
+            </p>
+          </address>
+        </div>
+      </footer>
+    </body>
+</html>
+
   <!--
    <nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -51,5 +165,3 @@
     </div>
     <footer class="container-fluid"><strong>Let's go!</strong></footer>
   -->
-</body>
-</html>
