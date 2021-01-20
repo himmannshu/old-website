@@ -14,13 +14,14 @@ body{
   margin-right: auto;
 }
 
+
 /*It affects the navigation bar*/
 .navigation-bar{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  /*background-color: #333;*/
   position: fixed;
   top: 0;
   width: 100%;
@@ -40,10 +41,13 @@ body{
 }
 /*It affects the about me section*/
 .about-me{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/landing-back.jpg");
   margin-bottom: 10px;
   text-align: center;
   padding-top: 46px;
-  color: #232b25;
+  color: #fcfffc;
 }
 /*This targets the h1 in about me section*/
 .about-me h1{
