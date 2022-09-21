@@ -14,6 +14,23 @@ span {
     color: white;
 }
 
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 30%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .header {
     overflow: hidden;
     padding: 20px 10px;
@@ -60,3 +77,15 @@ span {
     }
   }
   
+/*
+  .column {
+    float: left;
+    padding-left: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  */
